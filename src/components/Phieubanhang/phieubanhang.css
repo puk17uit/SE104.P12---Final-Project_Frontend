@@ -1,0 +1,239 @@
+/* Sidebar */
+.logo {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+.logo-image {
+    width: 150px;
+    height: auto;
+}
+
+.sidebar {
+    background-color: #001529;
+}
+
+.ant-menu-dark .ant-menu-item-selected {
+    background-color: #1890ff;
+}
+
+/* Header */
+.header {
+    background: #0044cc;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 20px;
+    color: white;
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.header-icon1{
+    width: 30px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.header-icon2 {
+    width: 30px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+
+.header-search {
+    width: 350px;
+    height: 40px;
+    margin-top: 15px;
+    margin-right: 50px;
+}
+
+.user-info {
+    font-weight: bold;
+    color: white;
+}
+
+/* Title Section */
+.title-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    background-color: rgb(200, 215, 235);
+    height: 36px;
+    margin-top: 8px;
+    margin-left: 24px;
+    width: calc(100% - 48px); /* Để căn giữa và phù hợp với các yếu tố xung quanh */
+}
+
+.content-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    color: #000;
+}
+
+/* Button Group */
+.button-group {
+    display: flex;
+    gap: 8px; /* Space between buttons */
+}
+
+/* Adjust buttons */
+.export-button {
+    background: #e0e0e0;
+    border: none;
+    color: #000;
+    padding: 8px 16px;
+}
+
+.create-order-button {
+    background-color: #1890ff;
+    color: white;
+    padding: 8px 16px;
+}
+
+/* Content */
+.content {
+    padding: 24px;
+    background-color: rgb(200, 215, 235);
+    min-height: 100vh; /* Ensures it stretches to full height */
+}
+
+.content-header {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-bottom: 16px;
+}
+
+/* Tabs and Filters */
+.ant-tabs {
+    margin-top: 16px;
+}
+
+.ant-tabs-nav {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.ant-tabs-nav-list {
+    width: 100%;
+    justify-content: center;
+}
+
+.tabs .ant-tabs-tab {
+    font-size: 17px;
+    padding: 10px 20px;
+}
+/* Filter Options */
+.filter-options {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 16px;
+    margin-right: -45px;
+}
+
+.filter-search {
+    width: 450px;
+    margin-left: 50px;
+}
+
+/* Table */
+.ant-table-thead > tr > th {
+    background-color: #fafafa;
+    font-weight: 600;
+    text-align: left;
+}
+
+.ant-table-tbody > tr > td {
+    font-size: 12px;
+    text-align: left;
+    width: 750px;
+}
+
+/* Tag Colors */
+.ant-tag-green {
+    background-color: #52c41a;
+    color: white;
+}
+
+.ant-tag-blue {
+    background-color: #123d65;
+    color: white;
+}
+
+.ant-tag-gray {
+    background-color: #d9d9d9;
+    color: black;
+}
+
+/* Reset margin and padding for body */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* Ensure the main layout fills the full viewport */
+#root, .app-layout {
+    height: 100%;
+}
+
+.filter-button {
+    background-color: #ffffff;
+    border: 1px solid #d9d9d9;
+    color: #8c8c8c;
+    display: flex;
+    align-items: center;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.icon-button {
+    background-color: #ffffff;
+    border: 1px solid #d9d9d9;
+    color: #8c8c8c;
+    padding: 6px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+/* Table Container */
+.table-container {
+    background-color: #ffffff;
+    padding-top: -20px;
+    padding: 0px 16px 8px 16px;
+    border-radius: 8px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 750px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Điều chỉnh độ rộng của bảng dữ liệu */
+.table-container .ant-table {
+    width: 100%; /* Hoặc điều chỉnh theo tỉ lệ mong muốn, ví dụ 90% hoặc px cố định */
+    max-width: 700px; /* Giới hạn độ rộng tối đa nếu cần */
+    margin: 0 auto; /* Căn giữa bảng bên trong container */
+}
